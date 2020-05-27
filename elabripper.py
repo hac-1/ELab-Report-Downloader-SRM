@@ -4,8 +4,8 @@ import time
 username=input("Enter Username:")
 password=input("Enter Password:")
 baseurl=input("Enter Login page URL:")
-level_url=input("Enter first question url(Varies from Level to Level):")#open the first question and in the level you want to download and paste that url here
 course_no=input("Enter course no (as in the no of blue blocks in the home page)(if only one enter as one)")
+level_url=input("Enter first question url(Varies from Level to Level):")#open the first question and in the level you want to download and paste that url here
 browser = webdriver.Chrome()  
 browser.get(baseurl)
 #-------------
